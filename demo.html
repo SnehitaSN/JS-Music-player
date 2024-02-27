@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+
+</head>
+
+<body>
+
+
+    <div class="audio">
+        <audio src="audio/audio1.mp3"></audio>
+
+    </div>
+
+
+    <div class="container">
+
+        <h2 id="singer">Sophie Divine</h2>
+        <h2 id="song">All the way into the Dessert</h2>
+        <div class="myimage">
+            <img src="Images/image 2.jpeg" alt="">
+        </div>
+
+        <div class="progressbarcontainer">
+            <div class="progressbar" id="progressbar"></div>
+            <div class="time">
+                <span id="currenttime"> 0:00</span>
+                <span id="duration">3:25</span>
+            </div>
+             
+        </div>
+        <div class="controls">
+            <i class="fas fa-backward" id="backward"></i>
+            <i class="fas fa-play" id="play"></i>
+            <i class="fas fa-forward" id="forward"></i>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
